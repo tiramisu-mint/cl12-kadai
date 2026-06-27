@@ -7,8 +7,8 @@
 ## 2.ソースコード
 
 ```python
-# このプログラムは python 3 用です。
-# あらかじめ pip- install pillow で pillow をインストールしておきます。
+# このプログラムは python3用です。
+# あらかじめ pip install pillow で pillow をインストールしておきます。
 from PIL import Image
 import sys
 
@@ -20,7 +20,7 @@ output_image = sys.argv[2]
 img = Image.open(input_image)
 
 # 画像の左右反転
-img_file = img/transpose(Image.FLIP_LEFT_RIGHT)
+img_flip = img.transpose(Image.FLIP_LEFT_RIGHT)
 
 # 画像の保存
 img_flip.save(output_image)
