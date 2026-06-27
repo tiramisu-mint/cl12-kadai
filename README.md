@@ -13,8 +13,8 @@ from PIL import Image
 import sys
 
 # コマンドライン引数から入力画面と出力画面のファイル名を取得
-imput_image = sys.argy[1]
-output_image = sys.argy[2]
+imput_image = sys.argv[1]
+output_image = sys.argv[2]
 
 # 画像の読み込み
 img = Image.open(input_image)
