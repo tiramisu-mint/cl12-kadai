@@ -12,7 +12,7 @@
 from PIL import Image
 import sys
 
-# コマンドライン引数から入力画面と出力画面のファイル名を取得
+# コマンドライン引数から入力画像と出力画像のファイル名を取得
 input_image = sys.argv[1]
 output_image = sys.argv[2]
 
